@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: 'outfit',sans-serif;
+}
+
+@theme {
+  --color-primary: #5f6FFF; /* bas ek hi jagah color define karo */
+}
+
+.grid-cols-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+
+.active hr {
+    @apply block
+}
+
+::-webkit-scrollbar {
+    @apply hidden
+}
+
+
+
+
+
