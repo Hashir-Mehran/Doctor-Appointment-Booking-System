@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Left side */}
         <div>
             <img src={assets.logo} onClick={()=>navigate('/')}  alt=""  className='mb-5 w-44 cursor-pointer' />
-            <p className='w-full md:w-2/3 text-gray-600 leading-6'>Prescripto is an innovative platform designed to simplify doctor appointments and healthcare access. Prescripto has been helping patients connect with trusted doctors quickly and securely, providing a reliable way to book, manage, and track medical consultations anytime, anywhere.</p>
+            <p className='w-full md:w-2/3 text-gray-600 leading-6'> Prescripto, your trusted partner in managing your healthcare needs conveniently and efficiently. At Prescripto, we understand the challenges individuals face when it comes to scheduling doctor appointments and managing their health records</p>
         </div>
         {/* center side */}
         <div>
@@ -34,7 +34,7 @@ const Footer = () => {
       {/* copyright */}
       <div>
         <hr className="border-t border-gray-300" />
-        <p className='py-5 text-sm text-center'>Copyright 2024 @ prescripto - All Right Reserved.</p>
+        <p className='py-5 text-sm text-center'>Copyright 2025 @ Hashir-Mehran - All Right Reserved.</p>
       </div>
     </div>
   )
