@@ -22,7 +22,7 @@ const TopDocters = () => {
               }, 100);
             }}
             key={index}
-            className="border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500"
+            className="border border-indigo-100 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-6px] transition-all duration-300 bg-white shadow-sm hover:shadow-md"
           >
             <img className="bg-blue-50 " src={item.image} alt="" />
             <div className="p-4">

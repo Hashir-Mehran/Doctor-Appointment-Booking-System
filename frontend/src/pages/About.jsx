@@ -5,10 +5,11 @@ const About = () => {
   return (
     <div className="px-6 sm:px-12 lg:px-20">
       {/* Heading */}
-      <div className="text-center text-2xl pt-10 text-gray-500">
+      <div className="text-center text-3xl font-semibold text-gray-700">
         <p>
-          ABOUT <span className="text-gray-700 font-medium">US</span>
+          ABOUT <span className="text-primary">US</span>
         </p>
+        <div className="h-[2px] w-14 bg-black mx-auto mt-2"></div>
       </div>
 
       {/* About section */}
